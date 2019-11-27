@@ -1,21 +1,26 @@
-#wave-container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+body {
+    font-family: "Arial";
 }
 
-.content {
-    height: 550px;
-    flex: 0 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 500px;
+hr {
+    width: 600px;
+    margin-left: 0;
 }
 
-.end {
+.results, .ui {
+display: flex;
+    flex-flow: row wrap;
+}
+
+.card, .area {
+    width: 300px;
+    height: 200px;
+}
+
+#card-1 {
     background-color: aquamarine;
 }
 
-.start {
+#card-2 {
     background-color: aqua;
 }
