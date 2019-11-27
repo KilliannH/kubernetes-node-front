@@ -1,0 +1,21 @@
+#wave-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.content {
+    height: 550px;
+    flex: 0 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 500px;
+}
+
+.end {
+    background-color: aquamarine;
+}
+
+.start {
+    background-color: aqua;
+}
