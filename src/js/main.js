@@ -1,6 +1,6 @@
 let catapultVotes, trebuchetVotes, totalVotes = 0;
 let catapultPercent, trebuchetPercent = 0;
-let baseUrl = `http://${Config.HOST}:${Config.PORT}`;
+let baseUrl = `http://${location.host}`;
 
 let catapultPercentElm, catapultTotalElm, trebuchetPercentElm, trebuchetTotalElm = document.getElementById('trebuchetTotal');
 
