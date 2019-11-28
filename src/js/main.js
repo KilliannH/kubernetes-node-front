@@ -11,7 +11,6 @@ let init = () => {
       catapultVotes = results[0].length;
       trebuchetVotes = results[1].length;
 
-      console.log(catapultVotes);
       $('#trebuchetPercent').css('color', 'black');
       $('#catapultPercent').css('color', 'black');
       return resolve(computeVotes());
