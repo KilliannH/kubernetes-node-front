@@ -16,11 +16,3 @@ display: flex;
     width: 300px;
     height: 200px;
 }
-
-#card-1 {
-    background-color: aquamarine;
-}
-
-#card-2 {
-    background-color: aqua;
-}

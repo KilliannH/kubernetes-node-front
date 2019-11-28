@@ -5,17 +5,18 @@
   <title>Catapult vs Trebuchet | Vote</title>
   <link rel="stylesheet" href="./css/style.css">
   <script rel="script" src="./lib/jquery-3.4.1.min.js"></script>
+  <script rel="script" src="js/config.js"></script>
   <script rel="script" src="js/main.js"></script>
 </head>
 <body>
 <div class="results">
   <div id="card-1" class="card">
     <p style="text-align: center; margin-top: 25%;">Catapult</p>
-    <p style="text-align: center; color: white; font-weight: bolder; font-size: 25px;"><b><span id="catapultPercent"></span></b></p>
+    <p style="text-align: center; font-weight: bolder; font-size: 25px;"><b><span id="catapultPercent"></span></b></p>
   </div>
   <div id="card-2" class="card">
     <p style="text-align: center; margin-top: 25%;">Trebuchet</p>
-    <p style="text-align: center; color: white; font-weight: bolder; font-size: 25px;"><b><span id="trebuchetPercent"></span></b></p>
+    <p style="text-align: center; font-weight: bolder; font-size: 25px;"><b><span id="trebuchetPercent"></span></b></p>
   </div>
 </div>
 
@@ -29,8 +30,10 @@
   <div class="area">
     <button class="vote-button" id="trebuchet-button">+1</button>
     <br>
-    <p>Total votes for Trébuchet : <span id="trebuchetTotal"></span></p>
+    <p>Total votes for Trebuchet : <span id="trebuchetTotal"></span></p>
   </div>
 </div>
+<br>
+<button id="reset-button">Reset</button>
 </body>
 </html>
